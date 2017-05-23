@@ -1,1 +1,32 @@
-%h1 This is the welcome placeholder.
+#banner
+	.banner_content
+		%h1 TinyNote
+		%p Your online notebook. Never forget anything again!
+		%button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+	.wrapper
+		%p.quote "Simple and fun to use! I'm an elephant now."
+		%p.name - Michael Jackson
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notes
+				%p Note-taking made beautiful, easy, and fun. take notes take notes take notes take notes take notes take notes take notes take notes take all your notes today right now baby
+			.callout
+				%h2 Rocket
+				%p Note-taking made beautiful, easy, and fun. take notes take notes take notes take notes take notes take notes take notes take notes take all your notes today right now baby
+			.callout
+				%h2 Lightning
+				%p Note-taking made beautiful, easy, and fun. take notes take notes take notes take notes take notes take notes take notes take notes take all your notes today right now baby
+
+#bottom_cta
+	.wrapper
+		%h2 Sign Up
+		%p You should sign up today!
+		%button= link_to "Click Me!", new_user_registration_path
+
+%footer
+	%p &copy; Katie
